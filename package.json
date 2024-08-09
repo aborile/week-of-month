@@ -1,0 +1,33 @@
+{
+  "name": "@aborile/week-of-month",
+  "version": "1.0.0",
+  "description": "Calculate the week number of month (based on ISO 8601, DayJs)",
+  "keywords": [
+    "week",
+    "week-number",
+    "week-of-month",
+    "iso-week",
+    "dayjs"
+  ],
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aborile/week-of-month.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "aborile"
+  },
+  "scripts": {
+    "test": "jest src/index.test.ts"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.12"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  }
+}
